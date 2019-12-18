@@ -45,7 +45,6 @@ Results:
 2. the time line is not so clear 
 ![0](https://github.com/tongtongluu/dvia-2019/blob/master/2.mapping-quantities/project/04_final/p1.png)
 
-Some javascript codes, for more details please visit [here](https://github.com/Xingwei726/dvia-2019/blob/master/2.mapping-quantities/project/sketch.js)
 
 ```
 //dots represent population of each year and three comparasions.
