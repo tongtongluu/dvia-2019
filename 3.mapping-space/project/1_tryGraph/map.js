@@ -6,7 +6,7 @@ var mymap;
 
 function preload() {
     // load the CSV data into our `table` variable and clip out the header row
-    table = loadTable("data/all_month.csv", "csv", "header");
+    table = loadTable("data/all_month1.csv", "csv", "header");
     console.log(table)
 }
 
@@ -16,9 +16,10 @@ function setup() {
 
     // load a set of map tiles – choose from the different providers demoed here:
     // https://leaflet-extras.github.io/leaflet-providers/preview/
-    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-        maxZoom: 18,
+     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+	    subdomains: 'abcd',
+	    maxZoom: 19,
         id: 'mapbox.streets',
         accessToken: 'pk.eyJ1IjoiZHZpYTIwMTciLCJhIjoiY2o5NmsxNXIxMDU3eTMxbnN4bW03M3RsZyJ9.VN5cq0zpf-oep1n1OjRSEA'
     }).addTo(mymap);
@@ -31,7 +32,14 @@ function setup() {
         if (row.get('mag')==''){
             continue
         }
-
+// set colors
+		let numberOfShades = Infinity;
+		let palette1 = Brewer.sequential('Blues', numberOfShades, 100, 150);
+		for(let i = 0 ; i<blocks.length; i++){
+			let color = palette1.colorForValue('place_2');
+			console.log(color)
+		}
+		
         // create a new dot
         var circle = L.circle([row.getNum('latitude'), row.getNum('longitude')], {
             color: 'blue',      // the dot stroke color

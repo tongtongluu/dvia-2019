@@ -11,22 +11,21 @@ var timeMin, timeMax;
 
 // table as the data set
 var table;
-
-
 var times; // an array for the time
 var magnitudes; // an array for the magnitude
 var depth;
 var gap;
+var place;
 
 var magnitudeInterval = 1.0;
 function preload() {
   //my table is comma separated value "csv"
   //and has a header specifying the columns labels
-  table = loadTable("data/significant_month_simple.csv", "csv", "header");
+  table = loadTable("data/all_sig1.csv", "csv", "header");
+  //table1 = loadTable("data/significant_month_simple.csv", "csv", "header")
 }
-
 function setup() {
-  createCanvas(3000,500);
+  createCanvas(3000,1000);
   background(0);
   angleMode(DEGREES);
 
@@ -48,7 +47,7 @@ function setup() {
   magnitudes = columnValues(table, "mag");
   depth = columnValues(table,"depth")
   gap = columnValues(table,"gap")
-
+  place = columnValues(table,"place_2")
   // get minimum and maximum values for magnitude (rounding up the max value to leave a visual margin at the top)
   magnitudeMin = 0.0;
   magnitudeMax = ceil(columnMax(table, "mag")) ;
@@ -79,7 +78,8 @@ function setup() {
 
   // draw the actual points
   drawDataPoints();
-  drawUFO();
+  //drawUFO();
+  drawCircleLoop();
 }
 
 
@@ -87,6 +87,11 @@ function setup() {
 function drawDataPoints(){
   strokeWeight(5);
   stroke(255,0,0);
+  var numberOfShades = 9
+  var lowest = place[0]
+  var highest = place[9]
+  //var palette = Brewer.sequential('BuPu', numberOfShades, lowest, highest)
+  //console.log(palette)
   // cycle through array
   for(var i=0; i<times.length; i++){
     //map the x position to the time
@@ -96,6 +101,33 @@ function drawDataPoints(){
     // map the y position to magnitude
     var y = map(magnitudes[i],magnitudeMin, magnitudeMax, y_bot, y_top);
     point(x,y);
+  }
+}
+
+function drawCircleLoop(){
+  strokeWeight(1);
+  stroke(255,0, 0);
+  noFill();
+  for(var i=0; i<times.length; i++){
+    //map the x position to the time
+    var dayTime = moment(times[i])
+    var x = map(dayTime,timeMin, timeMax, x_left, x_right);
+    // map the y position to magnitude
+    var y = map(magnitudes[i],magnitudeMin, magnitudeMax, y_bot, y_top);
+    var w = map(magnitudes[i],magnitudeMin,magnitudeMax,10,200);
+    var d = map(depth[i],depthMin,depthMax,2,20)
+    //var d = depth[i]
+    var g = w/d
+    //console.log(d,g)
+    //circle(x,y+50,w)
+    for(let o = 0;o < d; o ++){
+      circle(x,y, w - g)
+      w = w-g
+    }
+
+    //fill(255,0,0,100)
+    //ellipse(x,y+50,d,10)
+    //arc(x,y+50,30,g,0,180,CHORD)
   }
 }
 

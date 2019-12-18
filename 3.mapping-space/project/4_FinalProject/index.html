@@ -1,0 +1,42 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+  <link rel="stylesheet"script language="javascript" href="libraries/leaflet/leaflet.css"></script>
+  <style>
+    html, body {
+      padding: 0;
+      margin: 0;
+      width:100vh;
+      font-family: 'Chakra Petch', sans-serif;
+    }
+    #visuals{
+      width:100vh;
+      font-family: 'Chakra Petch', sans-serif;
+    }
+
+    #mapid{
+      width: 1280;
+      height: 80vh;
+      font-family: 'Chakra Petch', sans-serif;
+    }
+  </style>
+  </head>
+<body>
+  <h1>Comparasion of Depth and Mag Among Significant Earthquakes</h1>
+  <div id="mapid"></div>
+  <script language="javascript" type="text/javascript" src="libraries/leaflet/leaflet.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/moment.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/lodash.min.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  
+  <script src="libraries/chroma.min.js"></script>
+  <!--<script language="javascript" src="libraries/p5.dom.js"></script>-->
+  <!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
+  <div id="visuals">
+    <script  src="sketch.js"></script>
+  </div>
+  <!-- this line removes any default padding and style. you might only need one of these values set.
+  <style> body {padding: 0; margin: 0;} </style> -->
+</body>
+</html>
