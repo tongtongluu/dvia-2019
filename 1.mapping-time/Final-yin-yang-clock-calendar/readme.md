@@ -158,5 +158,5 @@ minute do not move with the lines
 
 ## 4/ Screenshot of Final Design
 ![0](https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/Final-yin-yang-clock-calendar/finalshow.png)
-
+![0](https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/Final-yin-yang-clock-calendar/p1v2.png)
 
