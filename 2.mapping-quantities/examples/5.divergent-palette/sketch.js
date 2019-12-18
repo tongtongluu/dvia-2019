@@ -16,6 +16,7 @@ function setup(){
   // create a divergent palette where we'll use negative values for underground tests
   // and positive values for atmospheric (the -60 .. 80 range came from eyeballing the data)
   var palette = Brewer.divergent('RdBu', Infinity, -60, 0, 80)
+  console.log("palette")
 
   // set up typography
   textFont("Rokkitt")
