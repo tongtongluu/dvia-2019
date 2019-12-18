@@ -7,7 +7,7 @@
 4. Also inspired by the Chinese Yin and Yang(negative and positive philosophy)
 5. inspired by Chinese Yin and Yang Bagua 
 6. divided it into two parts, black side is the clock part and the white part is the calendar part.
-![0](https://github.com/tongtongluu/dvia-2019/1.mapping-time/process/8_final_yinYangPhilosophy.png)
+![0](https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/process/8_final_yinYangPhilosophy.png)
 
 
 
@@ -157,6 +157,6 @@ function polygon(x, y, radius, npoints) {
 minute do not move with the lines
 
 ## 4/ Screenshot of Final Design
-![0](https://github.com/tongtongluu/dvia-2019/1.mapping-time/Final-yin-yang-clock-calendar/finalshow.png)
+![0](https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/Final-yin-yang-clock-calendar/finalshow.png)
 
 

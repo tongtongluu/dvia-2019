@@ -5,7 +5,7 @@ Design3: cat eyes,
 1. play around the variables of the circle, create a eye-like calendar. 
 2. Also use same four colors to represent seasons.
 3. pointers changes to show the day ranges in one month
-![0](https://github.com/tongtongluu/dvia-2019/1.mapping-time/process/6_calendarClock3_days_seasons.jpg)
+![0](https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/process/6_canlendarClock3_days_seasons.jpg)
 
 
 
@@ -104,5 +104,5 @@ Design3: cat eyes,
 ## 3/ Feedbacks on Refinements
 keep it that way
 
-## 4/ Screenshot of Final Design
-![0](https://github.com/tongtongluu/dvia-2019/1.mapping-time/date-3-season-days-pumpkineyes/show6.png)
+## 4/ Screenshot of Final Work
+![0](https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/date-3-season-days-pumpkineyes/show6.png)
