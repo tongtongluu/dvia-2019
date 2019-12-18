@@ -159,8 +159,8 @@ class Block{
 I created the SVG arguement to download a new svg each time , then I can add more observations
 
 ## JPG file
-![](https://github.com/tongtongluu/dvia-2019/blob/master/2.mapping-quantities/project/04_final/finalversion6.jpg)
+![](https://github.com/tongtongluu/dvia-2019/blob/master/2.mapping-quantities/project/04_final/finalversion7.jpg)
 
 
 ## PDF file
-![](https://github.com/tongtongluu/dvia-2019/blob/master/2.mapping-quantities/project/04_final/finalversion6.pdf)
+![](https://github.com/tongtongluu/dvia-2019/blob/master/2.mapping-quantities/project/04_final/finalversion7.jpg)
