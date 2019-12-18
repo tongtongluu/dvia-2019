@@ -8,7 +8,7 @@
 3.  circles that represent second hand
 4.  minute hand and second hand are represented from outer square to inner square accordingly.
 5.  hour is represented by the red quater circles as a growing sun
-![0](https://github.com/tongtongluu/dvia-2019/1.mapping-time/process/1_timeClock1_round.jpg)
+![0](https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/process/1_timeClock1_round.jpg)
 
 
 
@@ -73,4 +73,5 @@ fill("white")
 second and minute are not equally distributed
 
 ## 4/ Screenshot of Final Design
-![0](https://github.com/tongtongluu/dvia-2019/1.mapping-time/clock-2-radial-seconds-square/show2,png.png)
+![0](https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/clock-2-radial-seconds-square/show2,png.png)
+

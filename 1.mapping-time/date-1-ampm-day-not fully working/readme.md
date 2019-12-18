@@ -7,7 +7,7 @@ Design1: Black and white,
 3. dots moving like flowers to show the date of the month. 
 4. black and white changes as am and pm switches
 this is the original design:
-![0](https://github.com/tongtongluu/dvia-2019/1.mapping-time/process/4_calendarClock1_dayofmonth_season.jpg)
+![0](https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/process/4_calendarClock1_dayofmonth_season.jpg)
 
 
 
@@ -38,4 +38,4 @@ this is the original design:
 some of the function do not fully working
 
 ## 4/ Screenshot of Final Design
-![0](https://github.com/tongtongluu/dvia-2019/1.mapping-time/date-1-ampm-day-not fully working/show4.png)
+![0](https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/date-1-ampm-day-not fully working/show4.png)

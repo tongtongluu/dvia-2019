@@ -6,7 +6,7 @@
 2.  use green as the main color
 3.  circles that represent second hand
 4.  minute hand and hour hand are represented from outer circle to inner circle accordingly.
-![0](https://github.com/tongtongluu/dvia-2019/1.mapping-time/process/1_timeClock1_round.jpg)
+![0](https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/process/1_timeClock1_round.jpg)
 
 
 
@@ -44,4 +44,4 @@ function draw() {
 keep it that way
 
 ## 4/ Screenshot of Final Design
-![0](https://github.com/tongtongluu/dvia-2019/1.mapping-time/clock-1-radial-seconds-round-circle/show1.png)
+![0]https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/clock-1-radial-seconds-round-circle/show1.png)

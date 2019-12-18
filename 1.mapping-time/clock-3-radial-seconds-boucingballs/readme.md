@@ -6,7 +6,7 @@ Design3: Lines Clock changed to Bouncing Balls,
 1. imagin balls are trapped in a small room. 
 2. it is bouncing based on the rhythum of the time
 3. second ball change fast, and the hour ball change slowly
-![0](https://github.com/tongtongluu/dvia-2019/1.mapping-time/process/1_timeClock3_lines.jpg)
+![0](https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/process/1_timeClock3_lines.jpg)
 
 
 
@@ -57,4 +57,4 @@ Design3: Lines Clock changed to Bouncing Balls,
 should use numbers not speed to reprent time
 
 ## 4/ Screenshot of Final Design
-![0](https://github.com/tongtongluu/dvia-2019/1.mapping-time/clock-3-radial-seconds-boucingballs/show3.png)
+![0](https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/clock-3-radial-seconds-boucingballs/show3.png)

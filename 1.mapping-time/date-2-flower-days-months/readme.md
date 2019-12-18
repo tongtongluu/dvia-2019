@@ -6,7 +6,7 @@ Design1: Black and white,
 2. draw flows on the screen 
 3. number of leaves shows the number of month
 this is the original design:
-![0](https://github.com/tongtongluu/dvia-2019/1.mapping-time/process/4_calendarClock1_dayofmonth_season.jpg)
+![0](https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/process/4_calendarClock1_dayofmonth_season.jpg)
 
 
 
@@ -41,4 +41,4 @@ this is the original design:
 some of the function do not fully working
 
 ## 4/ Screenshot of Final Design
-![0](https://github.com/tongtongluu/dvia-2019/1.mapping-time/date-2-flower-days-months/show5.png)
+![0](https://github.com/tongtongluu/dvia-2019/blob/master/1.mapping-time/date-2-flower-days-months/show5.png)
